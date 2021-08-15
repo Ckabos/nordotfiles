@@ -1,2 +1,7 @@
 bspwm/libinput.sh
+mpd/playlists/*
+mpd/error
+mpd/log
+ncmpcpp/error.log
+ncmpcpp/lyrics/*
 
