@@ -1,0 +1,106 @@
+#!/bin/sh
+
+#Bspwm rules -> fix spotify desktop
+bspc config external_rules_command /home/efrain/.config/bspwm/scripts/bspwm-external-rules.sh
+
+# tray network manager
+nm-applet &
+
+# keymaps sxhkd
+shxkd &
+
+# transparency picom
+picom  --config /home/efrain/.config/picom/picom.conf &
+
+# launcher polybar bars
+$HOME/.config/polybar/launch.sh
+
+pgrep -x sxhkd > /dev/null || sxhkd &
+
+# wallpaper with feh
+#feh --bg-fill /home/efrain/Imágenes/Wallpapers/2259.png
+
+# number monitors
+bspc monitor -d 一 二 三 四 五 六 七 八 九 十
+
+# miscellaneous window manager
+bspc config focus_follows_pointer true
+bspc config pointer_modifier mod1
+bspc config border_width         1
+bspc config window_gap		 	 6
+bspc config split_ratio          0.5
+bspc config borderless_monocle   true
+bspc config gapless_monocle      true
+bspc config center_pseudo_tiled true
+#bspc config automatic_scheme	 spiral
+
+# Windows assignation to workspaces
+
+bspc rule -a URxvt desktop='^1' state=tiled follow=on
+bspc rule -a Alacritty desktop='^1' state=tiled follow=on
+
+bspc rule -a firefox desktop='^2' follow=on
+bspc rule -a Opera desktop='^2'follow=on
+bspc rule -a Brave-browser desktop='^2' follow=on
+bspc rule -a qutebrowser desktop='^2' state=tiled follow=on
+
+bspc rule -a Org.gnome.Nautilus desktop='^3' follow=on
+bspc rule -a Nemo desktop='^3' follow=on
+
+bspc rule -a "Spotify" desktop='^4'
+bspc rule -a "YouTube Music" desktop='^4'
+bspc rule -a mpv desktop='^4' follow=on
+bspc rule -a Youtube desktop='^4'
+bspc rule -a yuna desktop='^4'
+bspc rule -a qtws desktop='^4' state=fullscreen follow=on
+
+bspc rule -a Code desktop='^5'
+bspc rule -a Java desktop='^5' state=fullscreen follow=on
+bspc rule -a Eclipse desktop='^5' state=fullscreen follow=on
+
+bspc rule -a discord desktop='^6'
+bspc rule -a TelegramDesktop desktop='^6' follow=on
+bspc rule -a whatsdesk desktop='^6' follow=on
+bspc rule -a Caprine desktop='^6'state=tiled follow=on
+bspc rule -a org.gabmus.giara desktop='^6' state=tiled
+
+bspc rule -a Wpspdf desktop='^7' follow=on
+bspc rule -a pdf desktop='^7' follow=on
+bspc rule -a wps desktop='^7' follow=on
+bspc rule -a et desktop='^7' follow=on
+bspc rule -a wpp desktop='^7' follow=on
+bspc rule -a Zathura desktop='^7' state=tiled follow=on
+
+bspc rule -a MEGAsync desktop='^8' follow=on state=floating
+bspc rule -a Transmission-gtk desktop='^8' follow=on state=floating
+bspc rule -a System-config-printer.py desktop='^8' follow=on state=floating
+bspc rule -a obs desktop='^8'state=tiled follow=on
+bspc rule -a Protonvpn-gui desktop='^8' follow=on state=floating
+bspc rule -a BlueMail desktop='^8' follow=on state=floating
+bspc rule -a scrcpy desktop='^8' follow=on state=floating
+bspc rule -a Alarm-clock-applet desktop='^8' state=tiled follow=on
+bspc rule -a Blueberry.py desktop='^8' follow=on
+bspc rule -a Lxappearance desktop='^' state=tiled follow=on
+bspc rule -a kdeconnect.app desktop='^8' follow=on
+bspc rule -a kdeconnect-settings desktop='^8' state=tiled follow=on
+bspc rule -a kdeconnect-indicator desktop='^8' state=tiled follow=on
+bspc rule -a kdeconnect.sms desktop='^8' state=tiled follow=on
+bspc rule -a kdeconnect.daemon desktop='^8' state=floating follow=on
+bspc rule -a Gucharmap desktop='^8' state=tiled follow=on
+bspc rule -a Pavucontrol desktop='^8' state=tiled follow=on
+bspc rule -a Nitrogen desktop='^8' state=tiled follow=on
+bspc rule -a Flash_tool desktop='^8' state=tiled follow=on
+bspc ruule -a Gnome-screenshot desktop='^8' state=floating follow=on
+
+bspc rule -a "Microsoft Teams - Preview" desktop='^9' follow=on state=tiled
+bspc rule -a EdrawMax desktop='^9' follow=on
+bspc rule -a kolourpaint desktop='^9' state=tiled follow=on
+
+bspc rule -a OpenBoard desktop='^10' follow=on
+bspc rule -a Qalculate-gtk desktop='^10' state=tiled follow=on
+bspc rule -a GeoGebra desktop='^10' state=fullscreen follow=on
+bspc rule -a CrossCode desktop='^10' state=fullscreen follow=on
+bspc rule -a SkullGirls desktop='^10' state=fullscreen follow=on
+bspc rule -a "Cyber Shadow" desktop='^10' state=fullscreen follow=on
+bspc rule -a pyrogenesis desktop='^10' state=fullscreen follow=on
+bspc rule -a ktouch desktop='^10' state=tiled follow=on
