@@ -1,0 +1,97 @@
+[mpd]
+ncmpcpp_directory = ~/.config/ncmpcpp
+lyrics_directory = ~/.config/ncmpcpp/lyrics
+mpd_host = localhost
+mpd_port = 6600
+mpd_music_dir = /home/efrain/Música
+mpd_crossfade_time = 2
+
+[visualizer]
+visualizer_in_stereo = "no"
+visualizer_data_source = "/tmp/mpd.fifo"
+visualizer_output_name = "my_fifo"
+visualizer_type = "ellipse"
+visualizer_look = "∙▋"
+visualizer_color = "red,magenta,cyan,green,yellow"
+
+#startup_screen = visualizer
+startup_screen = playlist
+startup_slave_screen = playlist
+startup_slave_screen_focus = yes
+locked_screen_width_part = 65 
+
+[playlist]
+playlist_display_mode = "columns" (classic/columns)
+song_list_format = {{%a - %t}|{%f}}{$R%l}
+song_columns_list_format = "$L (30)[]{t} (30)[]{a} (5)[]{l}  "
+
+playlist_show_remaining_time = "no"
+playlist_shorten_total_times = "yes"
+playlist_show_mpd_host = no
+playlist_disable_highlight_delay = "0"  
+
+header_visibility = no
+
+[statusbar]
+#progressbar_look = "▃▃▃"
+progressbar_look = "─░─"
+progressbar_color = black:b
+statusbar_visibility = yes
+statusbar_color = default
+#song_status_format = {{%a{ "%b"{ (%y)}} - }{%t}}|{%f}
+song_status_format = "$6 $7[$8 %a $7] $6 $2 $7 [{$8 %t }|{$8 %f }|{$8 %b }$7]  $8"
+
+
+
+[library]
+#song_library_format = {%n - }{%t}|{%f}
+song_library_format = "{{%a - %t}|{%f}}{$R%l}"
+
+empty_tag_color = cyan
+alternative_header_first_line_format = $b$7$aqqu$/a$9 {%t}|{%f} $7$atqq$/a$9$/b
+alternative_header_second_line_format = {{$7$b%a$/b$9}{ - $5%b$9}{ ($4%y$9)}}|{%D}
+current_item_inactive_column_prefix = $(white)$r
+current_item_inactive_column_suffix = $/r$(end)
+browser_playlist_prefix = "$2playlist$9 "
+selected_item_prefix = $1
+selected_item_suffix = $1
+modified_item_prefix = $3> $9
+
+now_playing_prefix = "$b$2$7 "
+now_playing_suffix = " $/b$8"
+current_item_prefix = "$b$7$/b$3 "
+current_item_suffix = " $8"
+
+
+[global]
+colors_enabled = yes
+#main_window_color = cyan
+main_window_color = "default"
+header_window_color = default
+volume_color = default
+state_line_color = default
+state_flags_color = default:b
+color1 = white
+color2 = white
+progressbar_elapsed_color = red
+statusbar_time_color = default:b
+player_state_color = cyan
+alternative_ui_separator_color = black
+window_border_color = cyan
+active_window_border = red
+execute_on_song_change="~/.config/ncmpcpp/ncmpcpp-ueberzug/ncmpcpp_cover_art.sh"
+display_volume_level = "yes"
+user_interface = "alternative" (classic/alternative)
+browser_display_mode = "columns"
+search_engine_display_mode = "columns"
+playlist_editor_display_mode = "columns"
+autocenter_mode = "yes"
+centered_cursor = "yes"
+follow_now_playing_lyrics = "yes"
+external_editor = "nvim"
+cyclic_scrolling = "yes"
+mouse_support = "yes"
+mouse_list_scroll_whole_page = "yes"
+lines_scrolled = "1"
+message_delay_time = "1"
+

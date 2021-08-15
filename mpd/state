@@ -1,0 +1,323 @@
+sw_volume: 100
+audio_device_state:1:pulse audio
+audio_device_state:1:my_fifo
+state: play
+current: 2
+time: 27.809000
+random: 0
+repeat: 0
+single: 0
+consume: 0
+crossfade: 0
+mixrampdb: 0.000000
+mixrampdelay: -1.000000
+playlist_begin
+0:K-popsicle Rock/164, GUMI - 天ノ弱 featGUMI.mp3
+1:K-popsicle Rock/ACE COLLECTION - Monoqlo City.mp3
+2:K-popsicle Rock/Ado - Usseewa.mp3
+3:K-popsicle Rock/Adora Bell - Meltdown.mp3
+4:K-popsicle Rock/03 Adrian Barba - Usubeni.mp3
+5:K-popsicle Rock/Aimer - SPARK-AGAIN.mp3
+6:K-popsicle Rock/alcott - さくらの麓.mp3
+7:K-popsicle Rock/alcott - 宣戦布告.mp3
+8:K-popsicle Rock/Alfakyun - 天ノ弱.mp3
+9:K-popsicle Rock/01 Alia - impulse.mp3
+10:K-popsicle Rock/ank - あー.mp3
+11:K-popsicle Rock/ASCA - Resister.mp3
+12:K-popsicle Rock/ASCA - Resister - From THE FIRST TAKE.mp3
+13:K-popsicle Rock/04 ASIAN KUNG-FU GENERATION - Well Then, See You Again Tomor.mp3
+14:K-popsicle Rock/01 ASIAN KUNG-FU GENERATION - Blood Circulator.mp3
+15:K-popsicle Rock/01 ASIAN KUNG-FU GENERATION - Dororo.mp3
+16:K-popsicle Rock/02 ASIAN KUNG-FU GENERATION - Rewrite.mp3
+17:K-popsicle Rock/Bentham - Chicago.mp3
+18:K-popsicle Rock/Blue Encount - Polaris.mp3
+19:K-popsicle Rock/BTS - Dynamite.mp3
+20:K-popsicle Rock/02 BTS - Boy With Luv (feat. Halsey).mp3
+21:K-popsicle Rock/01 BURNOUT SYNDROMES - Fly High!!.mp3
+22:K-popsicle Rock/01 BURNOUT SYNDROMES - Good Morning World!.mp3
+23:K-popsicle Rock/Chinozo - Good-bye Declaration.mp3
+24:K-popsicle Rock/01 Cö Shu Nie - bullet.mp3
+25:K-popsicle Rock/DECO27 - The Vampire.mp3
+26:K-popsicle Rock/DECO27 - Ghost Rule.mp3
+27:K-popsicle Rock/DECO 27 - アンデッドアリス.mp3
+28:K-popsicle Rock/DECO27 - ヒバナ -Reloaded-.mp3
+29:K-popsicle Rock/doriko_ロミオとシンデレラ_MIKU_EXPO_2014_in_INDONESIA_Live_.mp3
+30:K-popsicle Rock/dramastore - 可愛い子にはトゲがある.mp3
+31:K-popsicle Rock/Eir Aoi - Innocence.mp3
+32:K-popsicle Rock/Eve - Kaikai Kitan (1).mp3
+33:K-popsicle Rock/Eve - Kaikai Kitan.mp3
+34:K-popsicle Rock/Eve - Last Dance.mp3
+35:K-popsicle Rock/FERN PLANET - Soldier Girls.mp3
+36:K-popsicle Rock/FERN PLANET - ソルジャーガールズ.mp3
+37:K-popsicle Rock/frederic - Only Wonder.mp3
+38:K-popsicle Rock/frederic - Rererepeat.mp3
+39:K-popsicle Rock/frederic - Oddloop.mp3
+40:K-popsicle Rock/frederic - TOGENKYO.mp3
+41:K-popsicle Rock/01 Garnidelia - Ambiguous.mp3
+42:K-popsicle Rock/Giga,_鏡音リンレン_劣等上等_feat_鏡音リンレン (2).mp3
+43:K-popsicle Rock/Giga,_鏡音リンレン_劣等上等_feat_鏡音リンレン.mp3
+44:K-popsicle Rock/Hachioji P - 気まぐれメルシィ.mp3
+45:K-popsicle Rock/Hakubi - dokonimoikenaibokutachiwa.mp3
+46:K-popsicle Rock/Hello Sleepwalkers - Hyakki Yakou.mp3
+47:K-popsicle Rock/Hello Sleepwalkers - Goya No Machiawase.mp3
+48:K-popsicle Rock/Hello Sleepwalkers - Shinwa Houkai.mp3
+49:K-popsicle Rock/hitorie - One Me Two Hearts.mp3
+50:K-popsicle Rock/01 hitorie - Polaris.mp3
+51:K-popsicle Rock/14 Ikimonogakari - Netsujo No Spectrum.mp3
+52:K-popsicle Rock/03 Ikimonogakari - Hanabi (Album Version).mp3
+53:K-popsicle Rock/Ilonka Obilinovic - Adamas (Sword Art Online  Alicization).mp3
+54:K-popsicle Rock/Ilonka Obilinovic - Luna de Papel (Paper Moon).mp3
+55:K-popsicle Rock/IZ ONE - Panorama.mp3
+56:K-popsicle Rock/01 Jin - Kagerou Days.mp3
+57:K-popsicle Rock/JIN - Daze.mp3
+58:K-popsicle Rock/JIN - Headphone Actor.mp3
+59:K-popsicle Rock/JIN - Kagerou Daze.mp3
+60:K-popsicle Rock/JIN - Losstime Memory.mp3
+61:K-popsicle Rock/02 KANA-BOON - Spiral.mp3
+62:K-popsicle Rock/04 KANA-BOON - Music.mp3
+63:K-popsicle Rock/KANA-BOON - Naimononedari Revenge the First Take.mp3
+64:K-popsicle Rock/KANA-BOON - Starmarker.mp3
+65:K-popsicle Rock/10 KANA-BOON - Silhouette.mp3
+66:K-popsicle Rock/01 KANA-BOON - ないものねだり.mp3
+67:K-popsicle Rock/KanKan - VITA.mp3
+68:K-popsicle Rock/Kei - Hello,Woker.mp3
+69:K-popsicle Rock/03 Kenshi Yonezu - Peace Sign.mp3
+70:K-popsicle Rock/08 Kenshi Yonezu - Shunrai.mp3
+71:K-popsicle Rock/01 Kenshi Yonezu - Lemon.mp3
+72:K-popsicle Rock/Kenshi Yonezu - Flamingo.mp3
+73:K-popsicle Rock/Keytalk - Passion.mp3
+74:K-popsicle Rock/Keytalk - Sympathy.mp3
+75:K-popsicle Rock/Kira - B.B.F (feat. Hatsune Miku   Kagamine Rin).mp3
+76:K-popsicle Rock/Kizuna AI - Awakening.mp3
+77:K-popsicle Rock/Kizuna AI, Yasutaka Nakata - AIAIAI feat 中田ヤスタカ.mp3
+78:K-popsicle Rock/kobore - FULLTEN.mp3
+79:K-popsicle Rock/Kradness, Reol - おこちゃま戦争.mp3
+80:K-popsicle Rock/Kuroneko - 嘘の火花.mp3
+81:K-popsicle Rock/Lee Da Yeon - Why am I like this.mp3
+82:K-popsicle Rock/Lie and a Chameleon - saredokijyutushihasaiwohuru.mp3
+83:K-popsicle Rock/Lie and a Chameleon - 0.mp3
+84:K-popsicle Rock/Lie and a Chameleon - Goodbye to Walpole.mp3
+85:K-popsicle Rock/Lie and a Chameleon - mononoke in the fiction.mp3
+86:K-popsicle Rock/Lie and a Chameleon - However the Illusionist shake the dice.mp3
+87:K-popsicle Rock/LiSA - Catch the Moment.mp3
+88:K-popsicle Rock/LiSA - だってアタシのヒーロー.mp3
+89:K-popsicle Rock/01 LiSA - Datte Atashino Hero.mp3
+90:K-popsicle Rock/LiSA - 紅蓮華.mp3
+91:K-popsicle Rock/02 LiSA - Crossing Field.mp3
+92:K-popsicle Rock/LiSA - Rising Hope.mp3
+93:K-popsicle Rock/Lucie,Too - Lucky.mp3
+94:K-popsicle Rock/Maaya Uchida - Strobe Memory.mp3
+95:K-popsicle Rock/Maaya Uchida - Youthful Beautiful.mp3
+96:K-popsicle Rock/Mafumafu - Haikei Sakura Maichiru Kono Hi Ni.mp3
+97:K-popsicle Rock/Manga Project - Straight Jet.mp3
+98:K-popsicle Rock/Mariya Takeuchi - Plastic Love.mp3
+99:K-popsicle Rock/Mashiro Ayano - Pixy Breath.mp3
+100:K-popsicle Rock/Matsushita - Onegai Darling.mp3
+101:K-popsicle Rock/Mauren Mendo - Pegasus Fantasy.mp3
+102:K-popsicle Rock/Mikito P - ロキ.mp3
+103:K-popsicle Rock/10 Mikito-P - I-aru Fanclub.mp3
+104:K-popsicle Rock/miwa - chAngE.mp3
+105:K-popsicle Rock/03 Miwa - Change.mp3
+106:K-popsicle Rock/物語シリーズ - Renai Circulation.mp3
+107:K-popsicle Rock/01 Mrs. Green Apple - Inferno.mp3
+108:K-popsicle Rock/07 Nanawoakari - Dameleon Heart.mp3
+109:K-popsicle Rock/Nanawoakari - Nnawake Naikedo.mp3
+110:K-popsicle Rock/Nanawoakari - Meruheru Shouwakusei.mp3
+111:K-popsicle Rock/01 Nanawoakari - Dadadada Tenshi.mp3
+112:K-popsicle Rock/10 Nanawoakari - One Room Sugar Life.mp3
+113:K-popsicle Rock/13 Nanawoakari - Instant Heaven.mp3
+114:K-popsicle Rock/Nanawoakari - Highers High.mp3
+115:K-popsicle Rock/Nanawoakari - Kanzen Houki Sengen.mp3
+116:K-popsicle Rock/Nanawoakari - Nanakorobi Nanaoki.mp3
+117:K-popsicle Rock/Nanawoakari - Honto No Kotowo Iunonara.mp3
+118:K-popsicle Rock/Nano - Nevereverland.mp3
+119:K-popsicle Rock/Nano - No pain No game.mp3
+120:K-popsicle Rock/Nano - magenta.mp3
+121:K-popsicle Rock/Nano - 想イ出カケラ.mp3
+122:K-popsicle Rock/Nano, MY FIRST STORY - SAVIOR OF SONGfeatMY FIRST STORY.mp3
+123:K-popsicle Rock/nayutalien - School Spacey.mp3
+124:K-popsicle Rock/nayutalien - サイファイエクスタシー.mp3
+125:K-popsicle Rock/nayutalien - 大宇宙ランデブー.mp3
+126:K-popsicle Rock/nayutalien - 藍と極星 (Vocaloid ver.).mp3
+127:K-popsicle Rock/Nayutalien - Alien Alien.mp3
+128:K-popsicle Rock/Nayutalien - Dance Robot Dance.mp3
+129:K-popsicle Rock/Nayutalien - Discommunication Alien.mp3
+130:K-popsicle Rock/Nayutalien - Planet Loop.mp3
+131:K-popsicle Rock/Nayutalien - Solar System Disco.mp3
+132:K-popsicle Rock/ネクライトーキー - 放課後の記憶.mp3
+133:K-popsicle Rock/Neru - Tokyo Teddy Bear.mp3
+134:K-popsicle Rock/Neru - い~やい~やい~やfeat z5.mp3
+135:K-popsicle Rock/Neru - くたばろうぜ.mp3
+136:K-popsicle Rock/Neru - 失踪チューン.mp3
+137:K-popsicle Rock/Neru - 敗者のマーチ.mp3
+138:K-popsicle Rock/Neru - Lost One No Goukoku.mp3
+139:K-popsicle Rock/Neru, Rin Kagamine, レン - い~やい~やい~や.mp3
+140:K-popsicle Rock/NILFRUITS - トラフィック ジャム.mp3
+141:K-popsicle Rock/PELICAN FANCLUB - Primary Colors.mp3
+142:K-popsicle Rock/PELICAN FANCLUB - 三原色.mp3
+143:K-popsicle Rock/POLKADOT STINGRAY - 女神.mp3
+144:K-popsicle Rock/POLKADOT_STINGRAY_テレキャスターストライプ_全知全能_ver.mp3
+145:K-popsicle Rock/05 Polkadot Stingray - Ichidaiji.mp3
+146:K-popsicle Rock/POLKADOT STINGRAY - ICHIDAIJI.mp3
+147:K-popsicle Rock/Polkadot Stingray - Jet.mp3
+148:K-popsicle Rock/Polkadot Stingray - A Stinging Spica.mp3
+149:K-popsicle Rock/Polkadot Stingray - Sayonara Yellow.mp3
+150:K-popsicle Rock/POLKADOT STINGRAY - ヒミツ.mp3
+151:K-popsicle Rock/POLKADOT STINGRAY - DENKOUSEKKA.mp3
+152:K-popsicle Rock/01 Polkadot Stingray - Telecaster Stripes (Capacity Version).mp3
+153:K-popsicle Rock/POLKADOT STINGRAY - Telecaster Stripes.mp3
+154:K-popsicle Rock/POLY - peony.mp3
+155:K-popsicle Rock/pont - ディスコタウン.mp3
+156:K-popsicle Rock/01 Porno Graffitti - The Day.mp3
+157:K-popsicle Rock/reGretGirl - ホワイトアウト.mp3
+158:K-popsicle Rock/Reol - drop pop candy feat ギガ.mp3
+159:K-popsicle Rock/Reol - ヒビカセ.mp3
+160:K-popsicle Rock/Reol - LUVORATORRRRRY.mp3
+161:K-popsicle Rock/Reol - MONSTER.mp3
+162:K-popsicle Rock/Reol - サイサキ.mp3
+163:K-popsicle Rock/Reol - 煩悩遊戯.mp3
+164:K-popsicle Rock/Reol - 金字塔.mp3
+165:K-popsicle Rock/Reol - un deux trois.mp3
+166:K-popsicle Rock/Reol - ダリ.mp3
+167:K-popsicle Rock/Reol - 第六感.mp3
+168:K-popsicle Rock/Reona - ANIMA.mp3
+169:K-popsicle Rock/Rhythmic Toy World - 僕の声.mp3
+170:K-popsicle Rock/ryo supercell - World is Mine -MIKUNOPOLIS in LOS ANGELES Li.mp3
+171:K-popsicle Rock/Ryokuoushoku Shakai - Shout Baby.mp3
+172:K-popsicle Rock/saji - 猫と花火.mp3
+173:K-popsicle Rock/Sakanaction - 新宝島.mp3
+174:K-popsicle Rock/SAKANAMON - 不明確な正解.mp3
+175:K-popsicle Rock/SAKANAMON - ミュージックプランクトン.mp3
+176:K-popsicle Rock/Sangatsu no Phantasia - Sangatsu Ga Zutto Tsuzukebaii.mp3
+177:K-popsicle Rock/Sangatsu no Phantasia - Pastel Rain.mp3
+178:K-popsicle Rock/Sangatsu no Phantasia - Seishunnante Iranaiwa.mp3
+179:K-popsicle Rock/Sangatsu_no_Phantasia_いつか天使になって_あるいは青い鳥になって_アダムとイブになって_ありえ.mp3
+180:K-popsicle Rock/Sangatsu no Phantasia - 恋はキライだ.mp3
+181:K-popsicle Rock/Sangatsu no Phantasia - Pink Lemonade.mp3
+182:K-popsicle Rock/Sangatsu no Phantasia - 煙.mp3
+183:K-popsicle Rock/Sangatsu no Phantasia - 透明色.mp3
+184:K-popsicle Rock/satomoka - melt bitter.mp3
+185:K-popsicle Rock/satomoka - ひまわり.mp3
+186:K-popsicle Rock/satomoka - かたちない日々.mp3
+187:K-popsicle Rock/01 Sayuri - Dawn.mp3
+188:K-popsicle Rock/Sayuri - Mikazuki.mp3
+189:K-popsicle Rock/Sayuri - About a Voyage (me Hikigatari Version).mp3
+190:K-popsicle Rock/Sayuri_ミカヅキ_め弾き語りver_me_Hikigatari_Version.mp3
+191:K-popsicle Rock/Sayuri - ミカヅキ.mp3
+192:K-popsicle Rock/09 Scandal - Shunkan Sentimental.mp3
+193:K-popsicle Rock/Seiko Oomori - JUSTadICE.mp3
+194:K-popsicle Rock/01_Shayne_Orok_Inferno_From__Fire.mp3
+195:K-popsicle Rock/Shiggy Jr - サマータイムラブ.mp3
+196:K-popsicle Rock/Shiggy Jr - oyasumi.mp3
+197:K-popsicle Rock/01 ShiroNeko - JUSTadICE (From _Black Clover_).mp3
+198:K-popsicle Rock/Shishamo - Kumoriyozorawa Amenoyohou.mp3
+199:K-popsicle Rock/Shishamo - Yurushiteagerukara.mp3
+200:K-popsicle Rock/Shishamo - Koini Ochiru Otoga Kikoetara.mp3
+201:K-popsicle Rock/Shishamo - Ashitamo.mp3
+202:K-popsicle Rock/Shishamo - Saboten.mp3
+203:K-popsicle Rock/Shishamo - Kimino Daijini Shiterumono.mp3
+204:K-popsicle Rock/Shishamo - Wasureteyarumonka.mp3
+205:K-popsicle Rock/10 Shishamo - Kimito Natsu Fes.mp3
+206:K-popsicle Rock/SHISHAMO - 中庭の少女たち.mp3
+207:K-popsicle Rock/SHISHAMO - 妄想サマー.mp3
+208:K-popsicle Rock/SHISHAMO - Kitto Ano Mangano Sei.mp3
+209:K-popsicle Rock/SHISHAMO - Dousoukai.mp3
+210:K-popsicle Rock/SHISHAMO - Oh!.mp3
+211:K-popsicle Rock/SHISHAMO - Koisuru.mp3
+212:K-popsicle Rock/Shoko Nakagawa - 空色デイズ.mp3
+213:K-popsicle Rock/01 Shoko Nakagawa - Sorairo Days.mp3
+214:K-popsicle Rock/Shoko Nakagawa - God knows.mp3
+215:K-popsicle Rock/Shout It Out - Days.mp3
+216:K-popsicle Rock/01 SID - Monokuro No Kiss.mp3
+217:K-popsicle Rock/01 SID - Ranbu No Melody.mp3
+218:K-popsicle Rock/SID - 乱舞のメロディ.mp3
+219:K-popsicle Rock/SID - 嘘.mp3
+220:K-popsicle Rock/02 SID - Uso.mp3
+221:K-popsicle Rock/SID - レイン.mp3
+222:K-popsicle Rock/04 SID - Rain.mp3
+223:K-popsicle Rock/03 Sora Amamiya - Skyreach.mp3
+224:K-popsicle Rock/Stereopony - Hitohira No Hanabira.mp3
+225:K-popsicle Rock/Sumire Uesaka - EASY LOVE.mp3
+226:K-popsicle Rock/THE BOYSGIRLS - heat haze.mp3
+227:K-popsicle Rock/THE ORAL CIGARETTES - A-E-U-I.mp3
+228:K-popsicle Rock/THE ORAL CIGARETTES - BLACK MEMORY.mp3
+229:K-popsicle Rock/THE ORAL CIGARETTES - Monster Effect.mp3
+230:K-popsicle Rock/The Peggies - Ashiato -Footprints-.mp3
+231:K-popsicle Rock/01 The Peggies - Stand by Me.mp3
+232:K-popsicle Rock/the peggies - スタンドバイミー.mp3
+233:K-popsicle Rock/Thyme - forever we can make it!.mp3
+234:K-popsicle Rock/Tuyu - 風薫る空の下.mp3
+235:K-popsicle Rock/Tuyu - くらべられっ子.mp3
+236:K-popsicle Rock/Tuyu - 過去に囚われている.mp3
+237:K-popsicle Rock/UNISON SQUARE GARDEN - fake town baby.mp3
+238:K-popsicle Rock/Uru - いい女.mp3
+239:K-popsicle Rock/UVERworld - CORE PRIDE.mp3
+240:K-popsicle Rock/04 UVERworld - Core Pride.mp3
+241:K-popsicle Rock/UVERworld - Colors of the Heart.mp3
+242:K-popsicle Rock/Vickeblanka - Black Rover.mp3
+243:K-popsicle Rock/WhaleDontSleep - ねむるまち (feat. yama).mp3
+244:K-popsicle Rock/whaledontsleep, Ado - osmanthus.mp3
+245:K-popsicle Rock/WHY@DOLL - キミはSteady.mp3
+246:K-popsicle Rock/WOMCADOLE - ドア.mp3
+247:K-popsicle Rock/WOMCADOLE - Kuroi Machi.mp3
+248:K-popsicle Rock/WOMCADOLE - Noah s.mp3
+249:K-popsicle Rock/WOMCADOLE - Tsuduri.mp3
+250:K-popsicle Rock/WOMCADOLE - Ajisai.mp3
+251:K-popsicle Rock/yama - Haru wo Tsugeru.mp3
+252:K-popsicle Rock/YOASOBI - アンコール.mp3
+253:K-popsicle Rock/YOASOBI - たふん.mp3
+254:K-popsicle Rock/YOASOBI - ハルジオン.mp3
+255:K-popsicle Rock/YOASOBI - 優しい彗星.mp3
+256:K-popsicle Rock/YOASOBI - 夜に駆ける.mp3
+257:K-popsicle Rock/YOASOBI - 当然の報い.mp3
+258:K-popsicle Rock/YOASOBI - 怪物.mp3
+259:K-popsicle Rock/Yoh kamiyama - 色香水.mp3
+260:K-popsicle Rock/Yoh Kamiyama - Irokousui.mp3
+261:K-popsicle Rock/Yorushika - Matasaburo.mp3
+262:K-popsicle Rock/ヨルシカ - 爆弾魔 - Re-Recording.mp3
+263:K-popsicle Rock/ヨルシカ - レプリカント.mp3
+264:K-popsicle Rock/Yorushika - Spring Thief.mp3
+265:K-popsicle Rock/Yorushika - Thoughtcrime.mp3
+266:K-popsicle Rock/Yorushika - Ghost In A Flower.mp3
+267:K-popsicle Rock/03 YUI - Again.mp3
+268:K-popsicle Rock/03 Yunomi - Bamboo Disco (feat. TORIENA).mp3
+269:K-popsicle Rock/Yunomi - 星降る夜のアデニウ.mp3
+270:K-popsicle Rock/ZUTOMAYO - Darken.mp3
+271:K-popsicle Rock/ZUTOMAYO - Fastening.mp3
+272:K-popsicle Rock/ZUTOMAYO - ハゼ馳せる果てるまで.mp3
+273:K-popsicle Rock/ZUTOMAYO - Dear MrF.mp3
+274:K-popsicle Rock/ZUTOMAYO - Humanoid.mp3
+275:K-popsicle Rock/ZUTOMAYO - 勘冴えて悔しいわ.mp3
+276:K-popsicle Rock/ZUTOMAYO - 蹴っ飛ばした毛布.mp3
+277:K-popsicle Rock/ZUTOMAYO - お勉強しといてよ.mp3
+278:K-popsicle Rock/ZUTOMAYO - Obenkyou Shitoiteyo.mp3
+279:K-popsicle Rock/ZUTOMAYO - Milabo.mp3
+280:K-popsicle Rock/いとうかなこ - ファティマ.mp3
+281:K-popsicle Rock/すりぃ - テレキャスタービーボーイ.mp3
+282:K-popsicle Rock/ヨルシカ - 言って.mp3
+283:K-popsicle Rock/ヨルシカ - ただ君に晴れ.mp3
+284:K-popsicle Rock/Yorushika - Dakara Boku wa Ongaku wo Yameta/02.藍二乗.mp3
+285:K-popsicle Rock/Yorushika - Dakara Boku wa Ongaku wo Yameta/03.八月、某、月明かり.mp3
+286:K-popsicle Rock/Yorushika - Dakara Boku wa Ongaku wo Yameta/04.詩書きとコーヒー.mp3
+287:K-popsicle Rock/Yorushika - Dakara Boku wa Ongaku wo Yameta/06.踊ろうぜ.mp3
+288:K-popsicle Rock/Yorushika - Dakara Boku wa Ongaku wo Yameta/08.五月は花緑青の窓辺から.mp3
+289:K-popsicle Rock/Yorushika - Dakara Boku wa Ongaku wo Yameta/09.夜紛い.mp3
+290:K-popsicle Rock/Yorushika - Dakara Boku wa Ongaku wo Yameta/14.だから僕は音楽を辞めた.mp3
+291:K-popsicle Rock/Yorushika - Tosaku (plagiarism) (3rd Album)/02 昼鳶 .mp3
+292:K-popsicle Rock/Yorushika - Tosaku (plagiarism) (3rd Album)/04 爆弾魔 .mp3
+293:K-popsicle Rock/Yorushika - Tosaku (plagiarism) (3rd Album)/06 レプリカント .mp3
+294:K-popsicle Rock/Yorushika - Tosaku (plagiarism) (3rd Album)/07 花人局 .mp3
+295:K-popsicle Rock/Yorushika - Tosaku (plagiarism) (3rd Album)/09 盗作 .mp3
+296:K-popsicle Rock/Yorushika - Tosaku (plagiarism) (3rd Album)/10 思想犯 .mp3
+297:K-popsicle Rock/Yorushika - Tosaku (plagiarism) (3rd Album)/14 花に亡霊 .mp3
+298:K-popsicle Rock/内田彩 - Candy Flavor.mp3
+299:K-popsicle Rock/岸田教団 the明星ロケッツ - HIGHSCHOOL OF THE DEAD.mp3
+300:K-popsicle Rock/廉 - ダウナーウィッチ.mp3
+301:K-popsicle Rock/柊マグネタイト - 終焉逃避行.mp3
+302:K-popsicle Rock/煮ル果実 - トラフィックジャム.mp3
+303:K-popsicle Rock/猫戦 - 鶴.mp3
+304:K-popsicle Rock/美波 - Prologue.mp3
+305:K-popsicle Rock/美波 - カワキヲアメク.mp3
+306:K-popsicle Rock/美波 - アメヲマツ.mp3
+307:K-popsicle Rock/麻婆豆腐 - グッバイ宣言.mp3
+playlist_end
