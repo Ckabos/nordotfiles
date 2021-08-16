@@ -12,7 +12,7 @@ while pgrep -u $UID -x polybar >/dev/null; do sleep 1; done
 export DEFAULT_NETWORK_INTERFACE=$(ip route | grep '^default' | awk '{print $5}' | head -n1)
 
 ## Load bar on primary monitor
-polybar -c ~/.config/polybar/config.ini main &
+polybar -c ~/.config/polybar/config.ini top &
 polybar -c ~/.config/polybar/config.ini bottom &
 
 # Load on second monitor if connected
