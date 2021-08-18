@@ -29,9 +29,9 @@
 - **`Gnome-screenshot`** : Screenshot to desktop.
 - **`rofi-bluetooth`** : rofi-bluetooth menu.
 - **`ranger`** : File manager.
-- `Zathura` : Lector PDF-EPUB.
-- `Nerd Fonts` : Fonts to the customization.
-- `Ueberzug` :  Image in terminal.
+- **`Zathura`** : Lector PDF-EPUB.
+- **`Nerd Fonts`** : Fonts to the customization.
+- **`Ueberzug`** :  Image in terminal.
 
 ### Icon fonts
 
