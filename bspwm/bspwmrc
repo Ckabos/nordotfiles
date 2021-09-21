@@ -3,6 +3,9 @@
 #Bspwm rules -> fix spotify desktop
 bspc config external_rules_command /home/efrain/.config/bspwm/scripts/bspwm-external-rules.sh
 
+# power manager
+$HOME/.config/bspwm/scripts/xfce4-pwm.sh
+
 # tray network manager
 nm-applet &
 
@@ -19,6 +22,8 @@ pgrep -x sxhkd > /dev/null || sxhkd &
 
 # wallpaper with feh
 feh --bg-fill /home/efrain/Imágenes/Wallpapers/2407.png
+#feh --bg-fill /home/efrain/Imágenes/Wallpapers/blanco.jpg
+
 
 # number monitors
 bspc monitor -d 一 二 三 四 五 六 七 八 九 十
@@ -57,6 +62,7 @@ bspc rule -a qtws desktop='^4' state=fullscreen follow=on
 bspc rule -a Code desktop='^5'
 bspc rule -a Java desktop='^5' state=fullscreen follow=on
 bspc rule -a Eclipse desktop='^5' state=fullscreen follow=on
+bpsc rule -a "Apache NetBeans IDE 12.4" desktop='^5'  state=tiled follow=on
 
 bspc rule -a discord desktop='^6'
 bspc rule -a TelegramDesktop desktop='^6' follow=on
@@ -90,13 +96,13 @@ bspc rule -a Gucharmap desktop='^8' state=tiled follow=on
 bspc rule -a Pavucontrol desktop='^8' state=tiled follow=on
 bspc rule -a Nitrogen desktop='^8' state=tiled follow=on
 bspc rule -a Flash_tool desktop='^8' state=tiled follow=on
-bspc ruule -a Gnome-screenshot desktop='^8' state=floating follow=on
+bspc rule -a Gnome-screenshot desktop='^8' state=floating follow=on
 
 bspc rule -a "Microsoft Teams - Preview" desktop='^9' follow=on state=tiled
-bspc rule -a EdrawMax desktop='^9' follow=on
-bspc rule -a kolourpaint desktop='^9' state=tiled follow=on
 
 bspc rule -a OpenBoard desktop='^10' follow=on
+bspc rule -a EdrawMax desktop='^10' follow=on
+bspc rule -a kolourpaint desktop='^10' state=tiled follow=on
 bspc rule -a Qalculate-gtk desktop='^10' state=tiled follow=on
 bspc rule -a GeoGebra desktop='^10' state=fullscreen follow=on
 bspc rule -a CrossCode desktop='^10' state=fullscreen follow=on
