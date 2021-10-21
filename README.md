@@ -71,3 +71,9 @@ $ cp -r alacritty ~/.config/
 $ cp -r cava ~/.config/
 $ cp -r sxhkd ~/.config/
 ```
+
+- library dbus-python -> ModuleNotFoundError: No module named 'dbus.mainloop.glib' 
+
+```
+$ pip3 install dbus-python
+```
