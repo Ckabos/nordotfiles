@@ -11,6 +11,7 @@ Plug 'ryanoasis/vim-devicons'
 Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
 Plug 'yggdroot/indentline'
+Plug 'lilydjwg/colorizer'
 
 " List ends here. Plugins become visible to Vim after this call.
 call plug#end()

@@ -9,7 +9,6 @@ super + Return
 # program launcher
 super + d
 	rofi -show drun -show-icons
-	#exec /home/efrain/.config/rofi/launchers/launcher.sh
 
 
 # rofi-emoji launcher
@@ -220,7 +219,8 @@ super + {n}
 #   MPC-MPD Multimedia Keybindings  #
 #####################################
 
-super + {XF86AudioPrev,XF86AudioPlay,XF86AudioStop,XF86AudioNext}
+#super + {XF86AudioPrev,XF86AudioPlay,XF86AudioStop,XF86AudioNext}
+ctrl + super {Left,Up,Down,Right}
 	mpc {prev,toggle,stop,next}
 
 #########################

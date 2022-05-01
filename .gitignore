@@ -4,4 +4,4 @@ mpd/error
 mpd/log
 ncmpcpp/error.log
 ncmpcpp/lyrics/*
-
+nvim/plugins
