@@ -11,6 +11,7 @@ set scroll-step 50
 set zoom-min 10
 set guioptions ""
 set render-loading "false"
+set window-title-page "true"
 
 
 # Startup options

@@ -30,7 +30,7 @@ bspc monitor -d 一 二 三 四 五 六 七 八 九 十
 
 # miscellaneous window manager
 bspc config focus_follows_pointer true
-bspc config pointer_modifier mod1
+bspc config pointer_modifier 	 mod4
 bspc config border_width         1
 bspc config window_gap		 	 6
 bspc config split_ratio          0.5
@@ -51,6 +51,7 @@ bspc rule -a qutebrowser desktop='^2' state=tiled follow=on
 
 bspc rule -a Org.gnome.Nautilus desktop='^3' follow=on
 bspc rule -a Nemo desktop='^3' follow=on
+bspc rule -a Pcmanfm desktop='^3' state=tiled follow=on
 
 bspc rule -a "Spotify" desktop='^4'
 bspc rule -a "YouTube Music" desktop='^4'
@@ -76,6 +77,7 @@ bspc rule -a wps desktop='^7' follow=on
 bspc rule -a et desktop='^7' follow=on
 bspc rule -a wpp desktop='^7' follow=on
 bspc rule -a Zathura desktop='^7' state=tiled follow=on
+bspc rule -a okular desktop='^7' state=tiled follow=on
 
 bspc rule -a MEGAsync desktop='^8' follow=on state=floating
 bspc rule -a Transmission-gtk desktop='^8' follow=on state=floating
@@ -96,7 +98,7 @@ bspc rule -a Gucharmap desktop='^8' state=tiled follow=on
 bspc rule -a Pavucontrol desktop='^8' state=tiled follow=on
 bspc rule -a Nitrogen desktop='^8' state=tiled follow=on
 bspc rule -a Flash_tool desktop='^8' state=tiled follow=on
-bspc rule -a Gnome-screenshot desktop='^8' state=floating follow=on
+bspc rule -a Gnome-screenshot state=floating follow=on
 
 bspc rule -a "Microsoft Teams - Preview" desktop='^9' follow=on state=tiled
 

@@ -8,7 +8,8 @@ super + Return
 
 # program launcher
 super + d
-	exec /home/efrain/.config/rofi/launchers/launcher.sh
+	rofi -show drun -show-icons
+	#exec /home/efrain/.config/rofi/launchers/launcher.sh
 
 
 # rofi-emoji launcher
@@ -143,7 +144,7 @@ ctrl + alt + {Delete}
 #################################
 
 
-alt + {Down,Up}
+XF86MonBrightness{Down,Up}
 	xbacklight -{dec,inc} 5
 
 #####################################
