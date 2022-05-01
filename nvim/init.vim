@@ -10,6 +10,7 @@ Plug 'majutsushi/tagbar'
 Plug 'ryanoasis/vim-devicons'
 Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
+Plug 'yggdroot/indentline'
 
 " List ends here. Plugins become visible to Vim after this call.
 call plug#end()
@@ -21,11 +22,16 @@ syntax enable
 set showcmd
 set encoding=utf-8
 set showmatch
+set tabstop=4 " tabulacion a 4 espacios
 
 let mapleader = " "
 nnoremap <leader>q :bd<CR>
 nnoremap <Tab> :bn<CR>
 nnoremap <S-Tab> :bp<CR>
+
+" indentline plugin :)
+
+set list lcs=tab:\┆\ 
 
 " Tokio night theme plugin :)
 set termguicolors
@@ -38,7 +44,7 @@ let g:tokyonight_cursor= 'blue' " 'auto', 'red','green', 'blue'.  default: auto
 
 colorscheme tokyonight
 
-" NERDTree
+" NERDTree plugin :)
 let NERDTreeQuitOnOpen=1 " cerrar al abrir archivo
 let g:NERDTreeDirArrowExpandable = '▸'
 let g:NERDTreeDirArrowCollapsible = '▾'
@@ -56,8 +62,9 @@ autocmd BufEnter * if bufname('#') =~ 'NERD_tree_\d\+' && bufname('%') !~ 'NERD_
 nnoremap <leader>n :NERDTreeFocus<CR>
 nnoremap <C-n> :NERDTreeToggle<CR>
 
-" Tagbar plugin
+" Tagbar plugin :)
 nmap <F8> :TagbarToggle<CR>
 
-" Vim airline
+" Vim airline plugin :)
 let g:airline#extensions#tabline#enabled = 1
+
