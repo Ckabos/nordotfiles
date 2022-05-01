@@ -18,7 +18,7 @@ visualizer_color = "red,magenta,cyan,green,yellow"
 startup_screen = playlist
 startup_slave_screen = playlist
 startup_slave_screen_focus = yes
-locked_screen_width_part = 65 
+locked_screen_width_part = 65
 
 [playlist]
 playlist_display_mode = "columns" (classic/columns)
@@ -28,7 +28,7 @@ song_columns_list_format = "$L (30)[]{t} (30)[]{a} (5)[]{l}  "
 playlist_show_remaining_time = "no"
 playlist_shorten_total_times = "yes"
 playlist_show_mpd_host = no
-playlist_disable_highlight_delay = "0"  
+playlist_disable_highlight_delay = "0"
 
 header_visibility = no
 
@@ -94,4 +94,3 @@ mouse_support = "yes"
 mouse_list_scroll_whole_page = "yes"
 lines_scrolled = "1"
 message_delay_time = "1"
-
