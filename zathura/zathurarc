@@ -1,19 +1,9 @@
-# Basic Settings
-
-set highlight-transparency .1
-set zoom-center "true"
-set selection-clipboard clipboard
-set render-loading "false"
-set pages-per-row 1
-set scroll-page-aware "true"
-set scroll-full-overlap 0.01
+set zoom 100
+set recolor "true"
+set recolor-darkcolor "#FFFFFF"
+set recolor-lightcolor "#000000"
+set window-margin-width 10
+set page-padding 5
 set scroll-step 50
-set zoom-min 10
-set guioptions ""
-set render-loading "false"
-set window-title-page "true"
+set auto-mark-bookmarks true
 
-
-# Startup options
-set adjust-open "best-fit"
-set recolor true

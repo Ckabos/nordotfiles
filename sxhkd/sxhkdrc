@@ -4,7 +4,7 @@
 
 # terminal emulator
 super + Return
-	alacritty	
+	kitty
 
 # program launcher
 super + d
@@ -35,7 +35,6 @@ super + alt + {q,r}
 # close and kill
 super + {_,shift + }q
 	bspc node -{c,k}
-
 # alternate between the tiled and monocle layout
 super + w 
 	bspc desktop -l next
@@ -152,8 +151,8 @@ XF86MonBrightness{Down,Up}
 
 
 
-{F11}
-	/usr/bin/pactl set-sink-mute 0 toggle
+#{F11}
+#	/usr/bin/pactl set-sink-mute 0 toggle
 
 {XF86AudioLowerVolume}
     exec ~/.config/polybar/scripts/bajar_volumen.sh
@@ -236,3 +235,9 @@ super + {t}
 
 super + {z}
 	zathura
+
+#########################
+#	PCmanfm				#
+#########################
+super + {e}
+	pcmanfm
