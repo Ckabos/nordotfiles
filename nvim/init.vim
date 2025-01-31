@@ -64,7 +64,7 @@ nnoremap <leader>n :NERDTreeFocus<CR>
 nnoremap <C-n> :NERDTreeToggle<CR>
 
 " Tagbar plugin :)
-nmap <F7> :TagbarToggle<CR>
+nmap <F8> :TagbarToggle<CR>
 
 " Vim airline plugin :)
 let g:airline#extensions#tabline#enabled = 1
