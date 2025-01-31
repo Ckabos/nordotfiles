@@ -4,7 +4,7 @@
 
 # terminal emulator
 super + Return
-	kitty
+	kitty	
 
 # program launcher
 super + d
@@ -18,7 +18,8 @@ super + a
 # rofi windowcd
 
 super + v
-	rofi -show window
+	copyq menu	
+#	rofi -show window
 
 # make sxhkd reload its configuration files:
 super + Escape
@@ -35,6 +36,7 @@ super + alt + {q,r}
 # close and kill
 super + {_,shift + }q
 	bspc node -{c,k}
+
 # alternate between the tiled and monocle layout
 super + w 
 	bspc desktop -l next
@@ -135,24 +137,24 @@ super + {Left,Down,Up,Right}
 ######################
 
 ctrl + alt + {Delete}
-	i3lock-fancy
+	sudo /usr/bin/betterlockscreen -l dim
 
 #################################
 #   Controles de Brillo         #
 #################################
 
 
-XF86MonBrightness{Down,Up}
-	xbacklight -{dec,inc} 5
+XF86MonBrightness{Down,Up}	
+	brightnessctl set -5%,brightnessctl set +5%
+		#xbacklight -{dec,inc} 5
 
+	
 #####################################
 #	Controles de Pulseaudio		    #
 #####################################
 
-
-
-#{F11}
-#	/usr/bin/pactl set-sink-mute 0 toggle
+{F11}
+	/usr/bin/pactl set-sink-mute 0 toggle
 
 {XF86AudioLowerVolume}
     exec ~/.config/polybar/scripts/bajar_volumen.sh
@@ -170,7 +172,7 @@ XF86MonBrightness{Down,Up}
 #	Controles Multimedia		 #
 ##################################
 
-super + {F6,F7,F8}
+super + {F5,F6,F7}
 	playerctl {previous,play-pause,next}
 	
 {XF86AudioStop,XF86AudioPlay,XF86AudioPrev,XF86AudioNext}
@@ -241,3 +243,5 @@ super + {z}
 #########################
 super + {e}
 	pcmanfm
+
+
