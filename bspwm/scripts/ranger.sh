@@ -1,3 +1,2 @@
 #!/bin/zsh
-
-alacritty -e ranger
+kitty --class ranger -e ranger

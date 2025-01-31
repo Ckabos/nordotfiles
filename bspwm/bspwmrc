@@ -1,10 +1,18 @@
-#!/bin/sh
+#!/bin/bash
 
 #Bspwm rules -> fix spotify desktop
 bspc config external_rules_command /home/efrain/.config/bspwm/scripts/bspwm-external-rules.sh
 
+
+#Ventanas JAVA
+export _JAVA_AWT_WM_NONREPARENTING=1
+wmname LG3D
+
 # power manager
 $HOME/.config/bspwm/scripts/xfce4-pwm.sh
+
+# tray copyq paste
+copyq &
 
 # tray network manager
 nm-applet &
@@ -21,15 +29,15 @@ $HOME/.config/polybar/launch.sh
 pgrep -x sxhkd > /dev/null || sxhkd &
 
 # wallpaper with feh
-feh --bg-fill /home/efrain/Imágenes/Wallpapers/2407.png
-#feh --bg-fill /home/efrain/Imágenes/Wallpapers/blanco.jpg
+feh --bg-fill /home/efrain/Imágenes/Wallpapers/mythical-dragon-beast-anime-style.jpg
 
-
-# number monitors
+# Solo el monitor de la laptop está activo
 bspc monitor -d 一 二 三 四 五 六 七 八 九 十
 
 # miscellaneous window manager
 bspc config focus_follows_pointer true
+bspc config focus_wrapping	true
+bcpc config automatic_centering false
 bspc config pointer_modifier 	 mod4
 bspc config border_width         1
 bspc config window_gap		 	 6
@@ -43,17 +51,21 @@ bspc config center_pseudo_tiled true
 
 bspc rule -a URxvt desktop='^1' state=tiled follow=on
 bspc rule -a Alacritty desktop='^1' state=tiled follow=on
+bspc rule -a kitty desktop='^1' state=tiled follow=on
 
 bspc rule -a firefox desktop='^2' follow=on
 bspc rule -a Opera desktop='^2'follow=on
 bspc rule -a Brave-browser desktop='^2' follow=on
 bspc rule -a qutebrowser desktop='^2' state=tiled follow=on
+bspc rule -a Google-chrome desktop='^2' state=tiled follow=on
 
 bspc rule -a Org.gnome.Nautilus desktop='^3' follow=on
 bspc rule -a Nemo desktop='^3' follow=on
 bspc rule -a Pcmanfm desktop='^3' state=tiled follow=on
+bspc rule -a ranger desktop='^3' state=tiled follow=on
 
 bspc rule -a "Spotify" desktop='^4'
+bspc rule -a "Spotube" desktop='^4' state=follow
 bspc rule -a "YouTube Music" desktop='^4'
 bspc rule -a mpv desktop='^4' follow=on
 bspc rule -a Youtube desktop='^4'
@@ -67,9 +79,11 @@ bpsc rule -a "Apache NetBeans IDE 12.4" desktop='^5'  state=tiled follow=on
 
 bspc rule -a discord desktop='^6'
 bspc rule -a TelegramDesktop desktop='^6' follow=on
-bspc rule -a whatsdesk desktop='^6' follow=on
+bspc rule -a Whatsapp-for-linux desktop='^6' follow=on
 bspc rule -a Caprine desktop='^6'state=tiled follow=on
 bspc rule -a org.gabmus.giara desktop='^6' state=tiled
+bspc rile -a Wasistlos desktop='^6' state=tiled
+bspc rule -a whatsdesk desktop='^6' state=tiled
 
 bspc rule -a Wpspdf desktop='^7' follow=on
 bspc rule -a pdf desktop='^7' follow=on
@@ -99,6 +113,8 @@ bspc rule -a Pavucontrol desktop='^8' state=tiled follow=on
 bspc rule -a Nitrogen desktop='^8' state=tiled follow=on
 bspc rule -a Flash_tool desktop='^8' state=tiled follow=on
 bspc rule -a Gnome-screenshot state=floating follow=on
+bspc rule -a copyq state=tiled follow=on
+
 
 bspc rule -a "Microsoft Teams - Preview" desktop='^9' follow=on state=tiled
 
@@ -112,3 +128,6 @@ bspc rule -a SkullGirls desktop='^10' state=fullscreen follow=on
 bspc rule -a "Cyber Shadow" desktop='^10' state=fullscreen follow=on
 bspc rule -a pyrogenesis desktop='^10' state=fullscreen follow=on
 bspc rule -a ktouch desktop='^10' state=tiled follow=on
+bspc rule -a burp-StartBurp desktop='^10' state=tiled follow=on
+bspc rule -a jetbrains-studio desktop='^10' state=tiled follow=on
+
